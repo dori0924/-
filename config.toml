@@ -1,0 +1,18 @@
+[theme]
+base = "light"
+primaryColor = "#9B2C2C"            # 단청 느낌의 진한 붉은색
+backgroundColor = "#FBF6EC"         # 한지 느낌의 미색
+secondaryBackgroundColor = "#F1E6D2"
+textColor = "#2B2118"
+font = "sans serif"
+
+[theme.dark]
+primaryColor = "#E0A458"            # 금빛
+backgroundColor = "#1C1714"
+secondaryBackgroundColor = "#2A221D"
+textColor = "#F3EADB"
+
+[server]
+# 실제 제한(10MB)은 app.py에서 검사해 한국어로 안내한다.
+# 서버 제한을 10MB로 두면 Streamlit이 영어 오류로 먼저 거부하므로 여유 있게 둔다.
+maxUploadSize = 25
